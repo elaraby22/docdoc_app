@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="fastlane.lanes">
+
+
+        <testcase name="0: default_platform" classname="fastlane.lanes" time="0.0023005">
+
+        </testcase>
+
+
+        <testcase name="1: flutter clean" classname="fastlane.lanes" time="2.1117649">
+
+        </testcase>
+
+
+        <testcase name="2: flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
+            classname="fastlane.lanes"
+            time="109.3616116">
+
+        </testcase>
+
+
+        <testcase name="3: firebase_app_distribution" classname="fastlane.lanes" time="167.9324643">
+
+        </testcase>
+
+    </testsuite>
+</testsuites>
